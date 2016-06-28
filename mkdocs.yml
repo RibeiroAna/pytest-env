@@ -1,0 +1,6 @@
+site_name: pytest-env
+site_description: Plugin to show the environment where the tests were executed
+
+theme: readthedocs
+
+repo_url: https://github.com/ribeiroana/pytest-env
