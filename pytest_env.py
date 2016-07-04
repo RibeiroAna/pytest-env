@@ -18,7 +18,7 @@ env_var = Environment (
                       )
 
 @pytest.fixture(scope='session', autouse=True)
-def environment():
+def environment(request):
     request.config._environment.extend([
         ('Python', env_var.python_version()),
         ('Platform', env_var.platform())])
